@@ -22,6 +22,8 @@ bash start.sh
 ```
 learn-ml/
 ├── README.md              ← 你在看
+├── AGENTS.md              ← Agent 入口，指向 CONTEXT.md
+├── CONTEXT.md             ← 完整上下文（Agent 必读）
 ├── ROADMAP.md             ← 全景路线图
 ├── TODO.md                ← 行动清单（勾了就划掉）
 ├── PROGRESS.md            ← 学习日志 & 进度追踪
