@@ -1,0 +1,25 @@
+# 基础启动（CPU 版本）
+services:
+  ml-lab:
+    build: .
+    container_name: learn-ml
+    ports:
+      - "8888:8888"        # Jupyter Lab
+      - "6006:6006"        # TensorBoard
+    volumes:
+      - ./notebooks:/workspace/notebooks
+      - ./scripts:/workspace/scripts
+      - ./data:/workspace/data
+      - ./notes:/workspace/notes
+      - ./references:/workspace/references
+      - ./projects:/workspace/projects
+      - ./models:/workspace/models
+    environment:
+      - TZ=Asia/Shanghai
+      - WANDB_MODE=offline   # wandb 默认离线，避免注册
+    deploy:
+      resources:
+        limits:
+          memory: 16G
+    restart: unless-stopped
+    # GPU 版本先注释掉，有显卡时用 docker-compose.gpu.yml

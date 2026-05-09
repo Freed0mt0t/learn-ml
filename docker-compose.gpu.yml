@@ -1,0 +1,11 @@
+# GPU 加速覆盖配置
+# 使用: docker compose -f docker-compose.yml -f docker-compose.gpu.yml up -d
+services:
+  ml-lab:
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
