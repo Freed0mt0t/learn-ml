@@ -8,13 +8,15 @@
 
 **📌 工程初始化**
 
-- 创建 `learn-ml/` 项目目录
-- 建立 ROADMAP、PROGRESS 文件
-- 规划 6 阶段 33 项学习任务（后合并 TODO 入 ROADMAP）
+- 创建 `learn-ml/` 项目骨架
+- 设计双线 ROADMAP：理论线 28 项 + 实践线 15 项目
+- 建立 PROJECTS.md 对齐看板
+- Docker 环境就绪（PyTorch 2.5 + Jupyter Lab）
+- GitHub 仓库绑定：https://github.com/Freed0mt0t/learn-ml
 
 **💡 想法**
-- 优先级：先搞定环境 → PyTorch 跑通 MNIST → 边做边补数学
-- 从阶段 0 开始，第一目标是装好 PyTorch 并跑通一个 notebook
+- 双线并行：理论自己跟，实践逐个对齐
+- 第一步：对齐 PROJECTS.md，从最基础的 P1 开始
 
 ---
 
