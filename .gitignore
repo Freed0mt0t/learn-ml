@@ -1,0 +1,15 @@
+# 数据集目录（不上传 git）
+data/
+# 模型权重
+models/
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Jupyter
+.ipynb_checkpoints/
+# 环境
+.env
+# OS
+.DS_Store
