@@ -9,8 +9,8 @@
 **📌 工程初始化**
 
 - 创建 `learn-ml/` 项目目录
-- 建立 ROADMAP、TODO、PROGRESS 文件
-- 规划 6 阶段 33 项学习任务
+- 建立 ROADMAP、PROGRESS 文件
+- 规划 6 阶段 33 项学习任务（后合并 TODO 入 ROADMAP）
 
 **💡 想法**
 - 优先级：先搞定环境 → PyTorch 跑通 MNIST → 边做边补数学
